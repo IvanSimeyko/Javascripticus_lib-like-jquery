@@ -20,6 +20,15 @@
 					в этом случае вместо querySelector используем querySelectorAll
 
 	  */
+	  if(document.getElementById(id) != null){
+
+	  }
+	  else if(document.getElementsByClassName(id) != null ){
+
+	  }
+	  else{
+	  	
+	  }
 	   	if (id) {
 	   		if (global === this) {
 		      return new simpleJSLibrary(id);
